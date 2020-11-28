@@ -4,7 +4,7 @@ title: "[Oracle] LGWR 동작 방식"
 subtitle: Oracle LGWR 동작 방식
 categories: database
 date: 2020-04-15T15:45:00+09:00
-tags: oracle LGWR 
+tags: oracle lgwr 
 comments: true
 ---
 
