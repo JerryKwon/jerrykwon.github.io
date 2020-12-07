@@ -8,6 +8,11 @@ tags: oracle lgwr
 comments: true
 ---
 
+## 개요
+
+> Oracle DB의 내구성(durability)를 만족시키기 위한 LGWR process의 동작 방식에 대한 정리
+
+
 ## 참고자료
 
 1. Jonathan Lewis, 번역. (주)엑셈 - Oracle Core Essential Internals for DBAs and Developers
