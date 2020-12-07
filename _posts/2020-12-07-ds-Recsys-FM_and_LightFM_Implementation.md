@@ -7,10 +7,7 @@ date: 2020-12-07T14:55:00+09:00
 tags: recsys factorizationmachine 
 comments: true
 ---
-
-
 ## 개요
-
 > 추천시스템에서 사용되는 개념 중 하나인 Factorization Machine에 대한 소개 및 간략한 pytorch model 소개, python에서 FM을 구현한 LightFM 패키지의 사용법 정리
 
 ## 1. References

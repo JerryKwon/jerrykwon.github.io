@@ -7,9 +7,7 @@ date: 2020-04-15T15:45:00+09:00
 tags: oracle lgwr 
 comments: true
 ---
-
 ## 개요
-
 > Oracle DB의 내구성(durability)를 만족시키기 위한 LGWR process의 동작 방식에 대한 정리
 
 
