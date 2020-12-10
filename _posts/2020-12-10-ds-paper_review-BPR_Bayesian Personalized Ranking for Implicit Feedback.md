@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "[paper_review] BPR Bayesian Personalized Ranking for Implicit Feedback"
-subtitle: [BPR] Bayesian Personalized Ranking for Implicit Feedback 논문 리뷰
+title: "[paper_review] Bayesian Personalized Ranking for Implicit Feedback"
+subtitle: Bayesian Personalized Ranking for Implicit Feedback 리뷰
 categories: ds
 date: 2020-12-10T17:45:00+09:00
-# tags: paper_review recsys learning-to-rank 
+tags: recsys
 comments: true
 ---
-
 ## 개요
 > BPR: Bayesian Personalized Ranking for Implicit Feedback 논문 리뷰
 
