@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[paper_review] BPR: Bayesian Personalized Ranking for Implicit Feedback"
-subtitle: BPR: Bayesian Personalized Ranking for Implicit Feedback 논문 리뷰
+subtitle: [BPR] Bayesian Personalized Ranking for Implicit Feedback 논문 리뷰
 categories: ds
 date: 2020-12-10T17:45:00+09:00
 tags: paper_review recsys learning-to-rank 
@@ -157,8 +157,8 @@ BPR-OPT를 계산을 위한 사후확률분포는 평균이 0이고 분산이 ![
 우리가 최적화할 BPR-OPT를 학습하기 위해서는 gradient descent 방식을 활용한다. 그러나 기본적인 gradient descent 방식은 옳지 못하여 LearnBPR를 수행하는데 있어서 stochastic gradient-descent 방식을 활용하도록 한다.
 
 <div align="center">
-<img src="../_imgs/BPR_model_parameter.jpg" />
-<img src="../_imgs/BPR_LEARNBPR.jpg" />
+<img src="../_imgs/BPR_model_parameter.jpg" /><br/>
+<img src="../_imgs/BPR_LEARNBPR.jpg" /><br/>
 <img src="https://latex.codecogs.com/svg.latex?\Theta\leftarrow\Theta-\alpha\frac{\delta{BPR-OPT}}{\delta\Theta}" title="https://latex.codecogs.com/svg.latex?\Theta\leftarrow\Theta-\alpha\frac{\delta{BPR-OPT}}{\delta\Theta}"/>
 </div>
 
