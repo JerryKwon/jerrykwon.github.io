@@ -83,13 +83,13 @@ function을 통해 도출한 점수 값을 정렬함으로써  ranking task에�
 scoring function은 $(X^{(A)},X^{(B)})\in{D}$ 에서, $X^{(A)}$는 $X^{(B)}$보다 높은 rank에 있다는 것을 가정해서 pairwise training data<a href="https://www.cs.cornell.edu/people/tj/publications/joachims_02c.pdf">[5]</a> 를 통해 학습할 수 있다.  pairwise ranking relation은 비정상적이라 positive training instance 만을 대상으로 수행한다.
 
 <div align="center">
-<img src="imgs/FM_sparse_matrix.jpg" />
+<img src="../_imgs/FM_sparse_matrix.jpg" />
 </div>
 
 
 
 <div align="center">
-<img src="imgs/FM_examples.jpg" />
+<img src="../_imgs/FM_examples.jpg" />
 </div>
 
 
@@ -143,7 +143,7 @@ scoring function은 $(X^{(A)},X^{(B)})\in{D}$ 에서, $X^{(A)}$는 $X^{(B)}$보�
    $<v_i,v_j>:=\overset{k}{\underset{f=i}{\sum}}v_{i,f}*v_{j,f}$
 
    <div align="center">
-   <img src="imgs/FM_linear_equation.jpg" />
+   <img src="../_imgs/FM_linear_equation.jpg" />
    </div>
 
 
@@ -154,21 +154,21 @@ scoring function은 $(X^{(A)},X^{(B)})\in{D}$ 에서, $X^{(A)}$는 $X^{(B)}$보�
    * **linear equation Figure1.**
 
    <div align="center">
-   <img src="imgs/FM_sym_matrix_1.jpg" />
+   <img src="../_imgs/FM_sym_matrix_1.jpg" />
    </div>
 
 
    * **linear equation Figure2.**
 
    <div align="center">
-   <img src="imgs/FM_sym_matrix_2.jpg" />
+   <img src="../_imgs/FM_sym_matrix_2.jpg" />
    </div>
 
 
    * **linear equation Figure3.**
 
    <div align="center">
-   <img src="imgs/FM_sym_matrix_3.jpg" />
+   <img src="../_imgs/FM_sym_matrix_3.jpg" />
    </div>
 
 
