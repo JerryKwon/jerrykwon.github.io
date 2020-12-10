@@ -72,7 +72,7 @@ Recommender의 목적은 특정 사용자에 대해 personalized total ranking�
 ### 3.2. Analysis of the problem setting
 
 <div align="center">
-<img src="imgs/BPR_usual_apporach.jpg"/>
+<img src="../_imgs/BPR_usual_apporach.jpg"/>
 </div>
 
 보통의 일반적인 Item Recommendation Approach는 Implicit dataset에 대해 상호작용한 값에 대해서는 1을, 나머지 상호작용하지 않았거나 missing value에 대해서는 0값을 대입하여 학습을 수행한다. 이를 통해 특정 user가 item에 상호작용하는 점수인 ![formular](https://render.githubusercontent.com/render/math?math=\hat{x}_{ui})를 구하고 정렬한 후 상위 K개의 item을 return하여 Recommendation을 수행한다. 
@@ -82,7 +82,7 @@ Recommender의 목적은 특정 사용자에 대해 personalized total ranking�
 따라서 해당 논문에서 접근하는 item pair를 사용하는 논점을 적용해보자. 이를 적용함으로써 위의 방식보다 item에 대한 ranking을 더 잘 나타낼 수 있게 된다. 
 
 <div align="center">
-<img src="imgs/BPR_pair_apporach.jpg"/>
+<img src="../_imgs/BPR_pair_apporach.jpg"/>
 </div>
 
 ![formular](https://render.githubusercontent.com/render/math?math=(u,i)\in{S})에 대해 관측된 item은 그렇지 않은 item에 비해 선호된다고 말할 수 있다. 그래서 user1에 대해 item 1과 2를 살펴보면, item 2는 관측되었기 때문에 2는 1보다 선호되는 아이템이라고 볼 수 있다. 그래서 item 1의 관점에서 2와 비교하면 비선호한다고 우측그림과 같이 나타낼 수 있다.
@@ -118,7 +118,7 @@ personalized ranking 예측을 위한 Bayesian method의 수식은 위와 같으
 <div align="center">
 <img src="https://latex.codecogs.com/svg.latex?\underset{u\in{U}}{\prod}p(>_u|\Theta)=\underset{(u,i,j)\in{U}\times{I}\times{I}}{\prod}p(i>_u{j}|\Theta)^{\delta((u,i,j)\in{D_S})} * (1-p(i>_u{j}|\Theta)^{\delta((u,i,j)\notin{D_S})})" title="\underset{u\in{U}}{\prod}p(>_u|\Theta)=\underset{(u,i,j)\in{U}\times{I}\times{I}}{\prod}p(i>_u{j}|\Theta)^{\delta((u,i,j)\in{D_S})} * (1-p(i>_u{j}|\Theta)^{\delta((u,i,j)\notin{D_S})})"/>
 
-<img src="imgs/BPR_delta.jpg" />
+<img src="../_imgs/BPR_delta.jpg" />
 </div>
 
 likelihood(가능도)는 위의 수식으로 나타낼 수 있다.
@@ -149,7 +149,7 @@ BPR-OPT를 계산을 위한 사후확률분포는 평균이 0이고 분산이 ![
 
 
 <div align="center">
-<img src="imgs/BPR_simplified_equation.jpg" />
+<img src="../_imgs/BPR_simplified_equation.jpg" />
 </div>
 
 ### 4.2. BPR Learning Algorithm
@@ -157,8 +157,8 @@ BPR-OPT를 계산을 위한 사후확률분포는 평균이 0이고 분산이 ![
 우리가 최적화할 BPR-OPT를 학습하기 위해서는 gradient descent 방식을 활용한다. 그러나 기본적인 gradient descent 방식은 옳지 못하여 LearnBPR를 수행하는데 있어서 stochastic gradient-descent 방식을 활용하도록 한다.
 
 <div align="center">
-<img src="imgs/BPR_model_parameter.jpg" />
-<img src="imgs/BPR_LEARNBPR.jpg" />
+<img src="../_imgs/BPR_model_parameter.jpg" />
+<img src="../_imgs/BPR_LEARNBPR.jpg" />
 <img src="https://latex.codecogs.com/svg.latex?\Theta\leftarrow\Theta-\alpha\frac{\delta{BPR-OPT}}{\delta\Theta}" title="https://latex.codecogs.com/svg.latex?\Theta\leftarrow\Theta-\alpha\frac{\delta{BPR-OPT}}{\delta\Theta}"/>
 </div>
 
@@ -191,7 +191,7 @@ pairwise 학습을 수행하는데 있어서 우리는 triple ![formular](https:
 # 6. Evaluation
 
 <div align="center">
-<img src="imgs/BPR_evaluation.jpg" />
+<img src="../_imgs/BPR_evaluation.jpg" />
 </div>
 
 # 7. Conclusion
