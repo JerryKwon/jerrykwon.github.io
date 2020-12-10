@@ -4,7 +4,7 @@ title: "[paper_review] Bayesian Personalized Ranking for Implicit Feedback"
 subtitle: Bayesian Personalized Ranking for Implicit Feedback 리뷰
 categories: ds
 date: 2020-12-10T17:45:00+09:00
-tags: recsys
+tags: paper_review recsys
 comments: true
 ---
 ## 개요
