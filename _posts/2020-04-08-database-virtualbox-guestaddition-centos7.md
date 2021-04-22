@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "[개발환경 구축] Centos7 VirtualBox Guest Addition 설치"
 subtitle: Centos7 VirtualBox Guest Addition 설치
 categories: database
