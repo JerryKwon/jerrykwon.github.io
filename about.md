@@ -32,6 +32,8 @@ key: page-about
 
 최근에는 Multi-Armed Bandit을 주로 공부하고 있어요!
 
+CV: [cv_younginkwon](cv_younginkwon.pdf)
+
 ## Bio
 
 * 이름: 권영인
