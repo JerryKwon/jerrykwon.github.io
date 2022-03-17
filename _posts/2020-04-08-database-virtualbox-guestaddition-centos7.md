@@ -8,6 +8,7 @@ tags: infra virtualbox centos7
 comments: true
 ---
 ## 개요
+
 > Oracle Virtual Box 가상머신에서 파일을 up/download시 사용되는 guest addition 설치시 발생 에러를 조치하는 내용입니다.
 
 ## VirtualBox Guest Addition
